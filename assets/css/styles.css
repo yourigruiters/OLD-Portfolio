@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fadeIn {
+  opacity: 0;
+  position: relative;
+  top: 100px;
+}
+
+/*** NAVBAR ***/
+nav {
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  padding: 5px 0px;
+  transition: all 0.5s;
+}
+
+nav .logo img {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav .logo span {
+  font-size: 12px;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+
+nav.scrolling {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0px;
+  background-color: #25222C;
+  border-bottom: #0000001c 2px solid;
+}
+
+nav li {
+  padding-left: 30px;
+}
+
+nav li a {
+  font-size: 12px;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+
+nav .navbutton {
+  padding: 1px 20px;
+  font-size: 12px;
+  margin-top: 7px;
+}
+/*** END NAVBAR ***/
+
+
+/*** HEADER ***/
+header.introduction {
+  width: 100%;
+  height: 550px;
+  padding-top: 175px;
+  background: url(../../images/background/headerborder.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.5s;
+}
+
+header h1 {
+  font-size: 32px;
+  line-height: 30px;
+}
+
+header h2 {
+  font-size: 26px;
+  line-height: 40px;
+}
+/*** END HEADER ***/
+
+/*** STORY ***/
+.story .introduction h4 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #25222c;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 200;
+  text-align: center;
+}
+
+.story p {
+  padding: 40px 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+/*** END STORY ***/
+
+/*** PORTFOLIO ***/
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.portfolio-row {
+  min-height: 274px;
+}
+
+.portfolio .introduction h4 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #25222c;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 200;
+  text-align: center;
+}
+
+.portfolio .card {
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.portfolio .card:hover {
+  transform: scale(1.02);
+  box-shadow: none;
+}
+
+.portfolio .card p {
+  font-size: 14px;
+}
+
+.portfolio .card ul {
+  font-size: 14px;
+  text-indent: 15px;
+  margin-bottom: 10px;
+}
+
+.portfolio .badge-pill {
+  background-color: #6c757d;
+  cursor: pointer;
+}
+/*** END PORTFOLIO ***/
+
+/*** PROJECTS ***/
+.projects h4 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.projects hr {
+  height: 0px;
+  width: 150px;
+}
+
+.projects .companies img {
+  padding: 0px 15px;
+  width: 100%;
+  height: auto;
+}
+/*** END PROJECTS ***/
+
+/*** Clients ***/
+#clients {
+  padding-top: 120px;
+  background: url(../../images/background/headerborder2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.5s;
+}
+/*** END Clients ***/
+
+/*** FOOTER ***/
+footer {
+  background-color: #25222C;
+}
+
+footer .form {
+  padding: 80px 15px;
+}
+
+footer .form .content h5 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+footer .form .content hr {
+  height: 0px;
+  width: 150px;
+}
+
+footer .form .content p {
+  letter-spacing: 1px;
+}
+
+footer .form .formMessage {
+  width: 400px;
+}
+
+footer .form form {
+  width: 500px;
+  height: auto;
+}
+
+footer .form form input[type=text],
+footer .form form input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  padding: 10px 15px;
+  background-color: #1E242C;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+footer .logo {
+  width: 100%;
+  height: 40px;
+}
+
+footer .logo img {
+  position: relative;
+  top: -40px;
+  width: auto;
+  height: 80px;
+}
+
+footer .social {
+  width: 130px;
+  height: 30px;
+}
+
+footer .social ul {
+  width: 100%;
+  height: 30px;
+}
+
+footer .social ul li {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+footer .social ul li:hover {
+  opacity: 0.75;
+}
+
+footer .social ul li:last-child {
+  margin-right: 0px;
+}
+
+footer .social ul li i {
+  width: 30px;
+  height: 30px;
+}
+
+footer .social ul li i {
+  width: 30px!important;
+  height: 30px!important;
+  padding: 7px 8px!important;
+  color: #fff;
+}
+
+footer .social ul li i:hover {
+  color: #25222C;
+}
+
+footer p {
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+footer .links p {
+  font-size: 10px;
+}
+
+footer .copyright p {
+  font-size: 12px;
+  color: #514d59;
+}
+/*** FOOTER END ***/
+
+/*** OVERLAYS ***/
+#overlay-contact {
+  position: fixed;
+  top: 123px;
+  right: 0px;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+}
+
+#overlay-contact:hover > #content {
+  right: 65px;
+}
+
+#overlay-contact #content {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  right: -170px;
+  width: 235px;
+  height: 65px;
+  padding: 15px 25px;
+  transition: all 0.5s;
+}
+
+#overlay-contact #content p {
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+#overlay-contact #contact {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  width: 65px; /* 65px */
+  height: 65px;
+}
+
+#overlay-contact #contact i {
+  width: 30px;
+  height: 30px;
+}
+
+#overlay-contact #contact i {
+  width: 65px!important;
+  height: 64px!important;
+  padding: 20px!important;
+  color: #ffffff;
+}
+
+#overlay-contact #contact i:before {
+  font-size: 25px;
+}
+/*** OVERLAYS END ***/
+
+/*** RESPONSIVE ***/
+
+@media (max-width: 1200px) {
+  header.introduction {
+    padding-top: 150px;
+  }
+
+  .projects .companies img {
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 992px) {
+ footer .coding-image {
+  height: 350px;
+  width: 100%;
+ }
+
+ nav li a {
+  font-size: 10px;
+ }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 26px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  header h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .story {
+    padding-top: 10px;
+  }
+
+  .portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  header.introduction {
+    padding-top: 100px;
+  }
+
+  .projects .companies img {
+    padding: 0px 0px;
+  }
+
+  footer .coding-image {
+   height: 275px;
+   width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  header.introduction {
+    padding-top: 75px;
+  }
+
+  .story img {
+    height: auto;
+  }
+
+  .portfolio .portfolio-item {
+    width: 100%;
+  }
+
+  .portfolio .portfolio-item img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .portfolio-item:hover img {
+    max-width: 100%;
+  }
+
+  .portfolio .portfolio-item .overlay {
+    width: calc(100% - 30px);
+  }
+
+  .portfolio .portfolio-item .overlay p {
+    font-size: 24px;
+    line-height: 1.125;
+  }
+
+  .projects .companies img {
+    padding: 0px 30px;
+  }
+
+  footer .coding-image {
+   height: 200px;
+   width: 100%;
+  }
+
+  footer .form form {
+    width: 100%;
+  }
+
+  footer .contact-smaller {
+    font-size: 14px;
+  }
+}
