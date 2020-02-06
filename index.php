@@ -28,7 +28,7 @@
       <div class="row">
         <div class="col-8 offset-2 text-center white">
           <h1 class="mt-5 font-weight-light">Hello, my name is <span class="second">Youri Gruiters</span>.</h1>
-          <h2 class="font-weight-light">I'm a Dutch front-end web developer and teacher.</h2>
+          <h2 class="font-weight-light">Dutch front-end developer based in Stockholm, Sweden.</h2>
         </div>
       </div>
     </div>
@@ -48,16 +48,16 @@
       <div class="col-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-0">
         <p class="grey">
           I am a passionate and
-          self-motivated individual with a keen interest in webdesign, web development, coding and training.
-          I have a BA Degree in IT & Media design as well as a BA Degree in IT & Education.
+          self-motivated individual with a keen interest in webdesign, web development, coding and coaching.
+          I have a BA Degree in IT & Media design and a BA Degree in IT & Education.
           <br><br>
           As my personal vision in life has always been '<span class="second font-weight-bold">personal development</span>', I am always looking to find ways that
           will provide me the opportunity to learn, grow and contribute significantly.
           <br><br>
-          Building user-friendly and well-structured websites / applications with a focus on good design is
-          a true passion of mine. I am skilled in building the above using vanilla coding in HTML, CSS, PHP,
-          JavaScript and MySQL or Wordpress. As I’m focused on improving the quality of my work, I have been
-          gaining great programming knowledge on Git, NoSQL databases (firebase) and a lot of React.
+          Building well-structured web applications with a focus on good design is a true passion of mine.
+          I am skilled in building the above using the React framework, Wordpress or plain web languages.
+          I’m focused and motivated on improving the quality of my work and have gained great programming
+          knowledge on Hooks, GraphQL and Jest. 
         </p>
       </div>
     </div>
@@ -73,7 +73,7 @@
       <div class="col-10 offset-1 text-center introduction">
         <h4 class="mb-2">Portfolio items</h4>
         <p class="grey mb-5">
-          Want to see more personal projects? <span><a href="https://github.com/yourigruiters" target="_blank" class="font-weight-bold effect">My Github page<i class="fab fa-github ml-1 second"></i></a></span>
+          <span>Check my <a href="https://github.com/yourigruiters" target="_blank" class="font-weight-bold"><i class="fab fa-github second"></i> </a> for more projects...</span>
         </p>
       </div>
     </div>
@@ -96,11 +96,11 @@
         <div class="card shadow" id="webshop">
           <a href="http://www.webshop.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
               <div class="float-right text-muted small">October 2019</div>
-              <h4 class="card-title text-muted">PG - Webshop - Design</h4>
+              <h4 class="card-title text-muted">React webshop - PG</h4>
               <img src="images/portfolio/webshop.jpg" alt="webshop" class="mb-4 img-fluid shadow">
-              <h4 class="first small">HTML - CSS - Bootstrap</h4>
+              <h4 class="first small">React</h4>
               <p class="card-text grey">Responsive Bootstrap webshop designed and coded for a client without the implementation of any functionalities. Client decided upfront to build in the functionalities on his own using the .NET framework.</p>
-              <p class="card-text grey">Planning to further improve this design by building in functionalities using React, Firebase and Sessionstorage in December.</p>
+              <p class="card-text grey"><span class="font-weight-bold">[Update 12 December 2019]</span> Made functional using the React framework</p>
           </div></a>
         </div>
       </div>
@@ -111,7 +111,7 @@
         <div class="card shadow" id="dashboard">
           <a href="http://www.nli.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
             <div class="float-right text-muted small">August 2019</div>
-            <h4 class="card-title text-muted">NLI Dashboard - Design</h4>
+            <h4 class="card-title text-muted">NLI Dashboard</h4>
             <img src="images/portfolio/nli.jpg" alt="nli" class="mb-4 img-fluid shadow">
             <h4 class="first small">HTML - CSS - Bootstrap</h4>
             <p class="card-text grey">Dashboard designed and coded for NLI, South Africa. Application will be finalized with responsiveness and functionalities between December 2019 and February 2020.</p>
@@ -163,93 +163,21 @@
       </div>
     </div>
 
-    <div class="row no-gutters">
-      <div class="col-sm py-2">
-        <div class="card shadow" id="personatool">
-          <a href="http://www.personatool.yourigruiters.com/" target="_blank" class="effect"><div class="card-body">
-            <div class="float-right text-muted small">April 2019</div>
-            <h4 class="card-title text-muted">YG Persona Tool</h4>
-            <img src="images/portfolio/personatool.jpg" alt="personatool" class="mb-4 img-fluid shadow">
-            <h4 class="first small">HTML - CSS - JavaScript - AJAX - PHP</h4>
-            <p class="card-text grey">Recreation of an online persona tool requested by a colleague for Ceed Learning, South Africa. Application hasn't been used.</p>
-          </div></a>
-        </div>
-      </div>
-      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-          <h5 class="m-2">
-            <a href="#personatool"><span class="badge badge-pill bg-second">&nbsp;</span></a>
-          </h5>
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-      </div>
-      <div class="col-sm"> <!--spacer--> </div>
-    </div>
-
-    <div class="row no-gutters">
-      <div class="col-sm"> <!--spacer--> </div>
-      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-          <h5 class="m-2">
-            <a href="#teamuitje"><span class="badge badge-pill bg-second">&nbsp;</span></a>
-          </h5>
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-      </div>
-      <div class="col-sm py-2">
-        <div class="card shadow" id="teamuitje">
-          <a href="http://www.teamuitje.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
-              <div class="float-right text-muted small">February 2019</div>
-              <h4 class="card-title text-muted">Teamuitje ROC</h4>
-              <img src="images/portfolio/teamuitje.jpg" alt="teamuitje" class="mb-4 img-fluid shadow">
-              <h4 class="first small">HTML - CSS - jQuery - AJAX - PHP - MySQL</h4>
-              <p class="card-text grey">Complete application that can be used for logging company event attendee. Applications consists of a fully functioning front-end and back-end created using PHP, jQuery, AJAX and MySQL.</p>
-              <p class="card-text grey">This demo version does not require login details.</p>
-          </div></a>
-        </div>
-      </div>
-    </div>
 
     <div class="row no-gutters">
       <div class="col-sm py-2">
-        <div class="card shadow" id="stef">
-          <a href="http://www.stefvanrooij.nl" target="_blank" class="effect"><div class="card-body">
-            <div class="float-right text-muted small">November 2018</div>
-            <h4 class="card-title text-muted">Portfolio Stef</h4>
-            <img src="images/portfolio/stef.jpg" alt="stef" class="mb-4 img-fluid shadow">
-            <h4 class="first small">Wordpress</h4>
-            <p class="card-text grey">Simple Wordpress photography portfolio website created for a friend to display his photography skills. </p>
-          </div></a>
+        <div class="card shadow" id="ceedapp">
+          <a href="http://www.ceedapp.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
+            <div class="float-right text-muted small">June 2018</div>
+            <h4 class="card-title text-muted">Ceed Learning APP</h4>
+            <img src="images/portfolio/ceedapp.jpg" alt="ceedapp" class="mb-4 img-fluid shadow">
+            <h4 class="first small">HTML - CSS - jQuery - AJAX - PHP - MySQL</h4>
+            <p class="card-text grey">Fully functional E-Learning application created for Ceed Learning during my internship at Ceed in South Africa. The application contains learning courses, quizzes, a discussion section and user accounts for both users and administrators. </p>
+            <p class="card-text grey">This application contains both front-end and back-end sides which can be accessed in the demo version available on my portfolio.  </p>
+            <p class="card-text grey">This demo version does not require login details.</p>
+        </div></a>
         </div>
       </div>
-      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-          <h5 class="m-2">
-            <a href="#stef"><span class="badge badge-pill bg-second">&nbsp;</span></a>
-          </h5>
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-      </div>
-      <div class="col-sm"> <!--spacer--> </div>
-    </div>
-
-    <div class="row no-gutters">
-      <div class="col-sm"> <!--spacer--> </div>
       <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
           <div class="row h-50">
               <div class="col border-right"></div>
@@ -258,65 +186,9 @@
           <h5 class="m-2">
             <a href="#ceedapp"><span class="badge badge-pill bg-second">&nbsp;</span></a>
           </h5>
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-      </div>
-      <div class="col-sm py-2">
-        <div class="card shadow" id="ceedapp">
-          <a href="http://www.ceedapp.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
-              <div class="float-right text-muted small">June 2018</div>
-              <h4 class="card-title text-muted">Ceed Learning APP</h4>
-              <img src="images/portfolio/ceedapp.jpg" alt="ceedapp" class="mb-4 img-fluid shadow">
-              <h4 class="first small">HTML - CSS - jQuery - AJAX - PHP - MySQL</h4>
-              <p class="card-text grey">Fully functional E-Learning application created for Ceed Learning during my internship at Ceed in South Africa. The application contains learning courses, quizzes, a discussion section and user accounts for both users and administrators. </p>
-              <p class="card-text grey">This application contains both front-end and back-end sides which can be accessed in the demo version available on my portfolio.  </p>
-              <p class="card-text grey">This demo version does not require login details.</p>
-          </div></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row no-gutters">
-      <div class="col-sm py-2">
-        <div class="card shadow" id="eindexamenmanager">
-          <a href="http://www.eindexamenmanager.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
-            <div class="float-right text-muted small">February 2017</div>
-            <h4 class="card-title text-muted">Eindexamenmanager ROC</h4>
-            <img src="images/portfolio/eindexamenmanager.jpg" alt="eindexamenmanager" class="mb-4 img-fluid shadow">
-            <h4 class="first small">HTML - CSS - jQuery - AJAX - PHP - MySQL</h4>
-            <p class="card-text grey">My first - and by far the largest application I have created to date. This application has been created for the IT-Team at ROC Nijmegen to keep track of student progress in the final year of their educations. </p>
-            <p class="card-text grey">The application contains a complete user login system, backlog, student information system, student progress system, class page, agenda and system management that consists of the following (and more) functionalities:  </p>
-            <ul>
-              <li class="card-text grey">Upload students by CSV;</li>
-              <li class="card-text grey">Managing exam groups;</li>
-              <li class="card-text grey">Assessing students;</li>
-              <li class="card-text grey">Managing years and systems;</li>
-              <li class="card-text grey">Creating emails, letters and stickers;</li>
-              <li class="card-text grey">Managing contacts.</li>
-            </ul>
-            <p class="card-text grey">This demo version does not require login details.</p>
-          </div></a>
-        </div>
-      </div>
-      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-          <h5 class="m-2">
-            <a href="#eindexamenmanager"><span class="badge badge-pill bg-second">&nbsp;</span></a>
-          </h5>
-          <div class="row h-50">
-              <div class="col"></div>
-              <div class="col"></div>
-          </div>
       </div>
       <div class="col-sm"> <!--spacer--> </div>
     </div>
-
-
 
   </div> <!-- CONTAINER END -->
 
@@ -407,22 +279,22 @@
         </div>
       </div>
       <div class="row mb-3 links">
-        <div class="col-2 col-md-1 offset-2 offset-md-4 text-center">
+        <div class="col-3 col-sm-2 col-md-1 offset-0 offset-sm-2 offset-md-4 text-center">
           <p class="mb-0 font-weight-bold text-uppercase"><a href="#top" class="effect">Home</a></p>
         </div>
-        <div class="col-2 col-md-1 text-center">
+        <div class="col-3 col-sm-2 col-md-1 text-center">
           <p class="mb-0 font-weight-bold text-uppercase"><a href="#story" class="effect">Story</a></p>
         </div>
-        <div class="col-2 col-md-1 text-center">
-          <p class="mb-0 font-weight-bold text-uppercase"><a href="#portfolio" class="effect">Portfolio</a></p>
+        <div class="col-3 col-sm-2 col-md-1 text-center">
+          <p class="mb-0 font-weight-bold text-uppercase"><a href="#portfolio" class="effect">Projects</a></p>
         </div>
-        <div class="col-2 col-md-1 text-center">
+        <div class="col-3 col-sm-2 col-md-1 text-center">
           <p class="mb-0 font-weight-bold text-uppercase"><a href="#form" class="effect">Contact</a></p>
         </div>
       </div>
       <div class="row pb-3 copyright">
         <div class="col-12 text-center">
-          <p class="mb-0 font-weight-bold">Copyright © 2019 | Youri Gruiters</p>
+          <p class="mb-0 font-weight-bold">Copyright © 2020 | Youri Gruiters</p>
         </div>
       </div>
     </div>
@@ -441,7 +313,7 @@
       <ul class="ml-auto float-right">
         <li class="float-left"><a href="#top" class="effect font-weight-bold text-uppercase text-right">Home</a></li>
         <li class="d-none d-md-block float-left"><a href="#story" class="effect font-weight-bold text-uppercase text-right">Story</a></li>
-        <li class="d-none d-md-block float-left"><a href="#portfolio" class="effect font-weight-bold text-uppercase text-right">Portfolio</a></li>
+        <li class="d-none d-md-block float-left"><a href="#portfolio" class="effect font-weight-bold text-uppercase text-right">Projects</a></li>
         <li class="d-none d-md-block float-left"><a href="#form" class="effect font-weight-bold text-uppercase text-right">Contact</a></li>
         <li class="d-none d-md-block float-left"><a href="files/CV-2019.pdf" target="_blank" class="effect font-weight-bold text-uppercase text-right"><button class="button bg-gradient navbutton">Resume</button></a></li>
       </ul>

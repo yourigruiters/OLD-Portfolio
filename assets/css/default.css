@@ -31,6 +31,10 @@
     color: #a7277c;
 }
 
+i.second:hover {
+    color: black;
+}
+
 .third {
     color: #562466;
 }
@@ -45,6 +49,8 @@
 
 .bg-first {
     background-color: #d45093;
+    background-color: rgba(212, 80, 147, 0.75);
+
 }
 
 .bg-second {
