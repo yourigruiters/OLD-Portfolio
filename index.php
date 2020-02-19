@@ -94,7 +94,7 @@
       </div>
       <div class="col-sm py-2">
         <div class="card shadow" id="webshop">
-          <a href="http://www.webshop.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
+          <a href="http://webshop.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
               <div class="float-right text-muted small">October 2019</div>
               <h4 class="card-title text-muted">React webshop - PG</h4>
               <img src="images/portfolio/webshop.jpg" alt="webshop" class="mb-4 img-fluid shadow">
@@ -109,7 +109,7 @@
     <div class="row no-gutters">
       <div class="col-sm py-2">
         <div class="card shadow" id="dashboard">
-          <a href="http://www.nli.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
+          <a href="http://nli.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
             <div class="float-right text-muted small">August 2019</div>
             <h4 class="card-title text-muted">NLI Dashboard</h4>
             <img src="images/portfolio/nli.jpg" alt="nli" class="mb-4 img-fluid shadow">
@@ -167,7 +167,7 @@
     <div class="row no-gutters">
       <div class="col-sm py-2">
         <div class="card shadow" id="ceedapp">
-          <a href="http://www.ceedapp.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
+          <a href="http://ceedapp.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
             <div class="float-right text-muted small">June 2018</div>
             <h4 class="card-title text-muted">Ceed Learning APP</h4>
             <img src="images/portfolio/ceedapp.jpg" alt="ceedapp" class="mb-4 img-fluid shadow">
