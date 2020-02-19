@@ -57,7 +57,7 @@
           Building well-structured web applications with a focus on good design is a true passion of mine.
           I am skilled in building the above using the React framework, Wordpress or plain web languages.
           I’m focused and motivated on improving the quality of my work and have gained great programming
-          knowledge on Hooks, GraphQL and Jest. 
+          knowledge on Redux, TypeScript, GraphQL and Node. 
         </p>
       </div>
     </div>
@@ -95,12 +95,11 @@
       <div class="col-sm py-2">
         <div class="card shadow" id="webshop">
           <a href="http://webshop.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
-              <div class="float-right text-muted small">October 2019</div>
-              <h4 class="card-title text-muted">React webshop - PG</h4>
+              <div class="float-right text-muted small">November 2019</div>
+              <h4 class="card-title text-muted">Simple React Webshop</h4>
               <img src="images/portfolio/webshop.jpg" alt="webshop" class="mb-4 img-fluid shadow">
               <h4 class="first small">React</h4>
-              <p class="card-text grey">Responsive Bootstrap webshop designed and coded for a client without the implementation of any functionalities. Client decided upfront to build in the functionalities on his own using the .NET framework.</p>
-              <p class="card-text grey"><span class="font-weight-bold">[Update 12 December 2019]</span> Made functional using the React framework</p>
+              <p class="card-text grey">First basic React application made using a previously designed webshop. React-router-dom is the only library used. </p>
           </div></a>
         </div>
       </div>
@@ -114,8 +113,7 @@
             <h4 class="card-title text-muted">NLI Dashboard</h4>
             <img src="images/portfolio/nli.jpg" alt="nli" class="mb-4 img-fluid shadow">
             <h4 class="first small">HTML - CSS - Bootstrap</h4>
-            <p class="card-text grey">Dashboard designed and coded for NLI, South Africa. Application will be finalized with responsiveness and functionalities between December 2019 and February 2020.</p>
-            <p class="card-text grey">This demo version does not require login details.</p>
+            <p class="card-text grey">Dashboard designed and coded for NLI, South Africa. Application will be finalized with responsiveness and functionalities using the React framework.</p>
           </div></a>
         </div>
       </div>
@@ -157,7 +155,7 @@
               <h4 class="card-title text-muted">Ceed Learning Website</h4>
               <img src="images/portfolio/ceedlearning.jpg" alt="ceedlearning" class="mb-4 img-fluid shadow">
               <h4 class="first small">Wordpress</h4>
-              <p class="card-text grey">Completely revamped Ceed Learning website created between May and June 2014 due to the rebranding of Ceed Learning, South Africa. Build from scratch including custom responsive header, footer and JavaScript elements.</p>
+              <p class="card-text grey">Wordpress website created for Ceed Learning, South Africa. Website created from scratch using the Elementor plugin and custom CSS/JavaScript.</p>
           </div></a>
         </div>
       </div>
@@ -169,12 +167,10 @@
         <div class="card shadow" id="ceedapp">
           <a href="http://ceedapp.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
             <div class="float-right text-muted small">June 2018</div>
-            <h4 class="card-title text-muted">Ceed Learning APP</h4>
+            <h4 class="card-title text-muted">Ceed APP</h4>
             <img src="images/portfolio/ceedapp.jpg" alt="ceedapp" class="mb-4 img-fluid shadow">
             <h4 class="first small">HTML - CSS - jQuery - AJAX - PHP - MySQL</h4>
-            <p class="card-text grey">Fully functional E-Learning application created for Ceed Learning during my internship at Ceed in South Africa. The application contains learning courses, quizzes, a discussion section and user accounts for both users and administrators. </p>
-            <p class="card-text grey">This application contains both front-end and back-end sides which can be accessed in the demo version available on my portfolio.  </p>
-            <p class="card-text grey">This demo version does not require login details.</p>
+            <p class="card-text grey">Fully functional E-Learning application created for Ceed Learning during my internship in South Africa. Created using vanilla coding in plain programming languages. </p>
         </div></a>
         </div>
       </div>
