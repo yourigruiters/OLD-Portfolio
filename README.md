@@ -12,5 +12,5 @@ Old portfolio website - 21-02-2020
 
 ## Images 
 
-![Image1](http://github.yourigruiters.com/images/portfolio1.png)
+![Image1](http://github.yourigruiters.com/images/old-portfolio1.png)
 <!-- ![Image2](http://www.yourigruiters.com/images/logo/logo-150.png) -->
