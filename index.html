@@ -38,7 +38,7 @@
   <div class="container story mb-5 mt-5 pt-5 fadeIn" id="story">
     <div class="row">
       <div class="col-10 offset-1 text-center introduction">
-        <h4 class="mb-5">My story</h4>
+        <h4 class="mb-5">Who am I?</h4>
       </div>
     </div>
     <div class="row">
@@ -68,6 +68,7 @@
     </div>
   </div>
 
+    
   <div class="container portfolio mb-5 fadeIn" id="portfolio">
     <div class="row">
       <div class="col-10 offset-1 text-center introduction">
@@ -77,39 +78,12 @@
         </p>
       </div>
     </div>
-    <div class="row no-gutters">
-      <div class="col-sm"> <!--spacer--> </div>
-      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-          <div class="row h-50">
-              <div class="col"></div>
-              <div class="col"></div>
-          </div>
-          <h5 class="m-2">
-            <a href="#webshop"><span class="badge badge-pill bg-second">&nbsp;</span></a>
-          </h5>
-          <div class="row h-50">
-              <div class="col border-right"></div>
-              <div class="col"></div>
-          </div>
-      </div>
-      <div class="col-sm py-2">
-        <div class="card shadow" id="webshop">
-          <a href="http://webshop.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
-              <div class="float-right text-muted small">November 2019</div>
-              <h4 class="card-title text-muted">Simple React Webshop</h4>
-              <img src="images/portfolio/webshop.jpg" alt="webshop" class="mb-4 img-fluid shadow">
-              <h4 class="first small">React</h4>
-              <p class="card-text grey">First basic React application made using a previously designed webshop. React-router-dom is the only library used. </p>
-          </div></a>
-        </div>
-      </div>
-    </div>
 
     <div class="row no-gutters">
       <div class="col-sm py-2">
         <div class="card shadow" id="dashboard">
           <a href="http://nli.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
-            <div class="float-right text-muted small">August 2019</div>
+            <div class="float-right text-muted small">February 2019</div>
             <h4 class="card-title text-muted">NLI Dashboard</h4>
             <img src="images/portfolio/nli.jpg" alt="nli" class="mb-4 img-fluid shadow">
             <h4 class="first small">HTML - CSS - Bootstrap</h4>
@@ -119,11 +93,66 @@
       </div>
       <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
           <div class="row h-50">
+
+          </div>
+          <h5 class="m-2">
+            <a href="#dashboard"><span class="badge badge-pill bg-second">&nbsp;</span></a>
+          </h5>
+          <div class="row h-50">
+              <div class="col border-right"></div>
+              <div class="col"></div>
+          </div>
+      </div>
+      <div class="col-sm"> <!--spacer--> </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-sm"> <!--spacer--> </div>
+        <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+          <div class="row h-50">
               <div class="col border-right"></div>
               <div class="col"></div>
           </div>
           <h5 class="m-2">
-            <a href="#dashboard"><span class="badge badge-pill bg-second">&nbsp;</span></a>
+            <a href="#devfinder"><span class="badge badge-pill bg-second">&nbsp;</span></a>
+          </h5>
+          <div class="row h-50">
+              <div class="col border-right"></div>
+              <div class="col"></div>
+          </div>
+      </div>
+      <div class="col-sm py-2">
+        <div class="card shadow" id="devfinder">
+          <a href="http://devfinder.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
+              <div class="float-right text-muted small">February 2019</div>
+              <h4 class="card-title text-muted">DevFinder</h4>
+              <img src="images/portfolio/devfinder.jpg" alt="webshop" class="mb-4 img-fluid shadow">
+              <h4 class="first small">Styled-components, Flexbox and React-FA</h4>
+              <p class="card-text grey">React application to find developers for your project based on Tags. Made using: React, React-router-dom, React-FontAwesome, Styled-components and Flexbox. </p>
+          </div></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-sm py-2">
+        <div class="card shadow" id="webshop">
+          <a href="http://webshop.yourigruiters.com" target="_blank" class="effect"><div class="card-body">
+            <div class="float-right text-muted small">December 2019</div>
+            <h4 class="card-title text-muted">React Webshop</h4>
+            <img src="images/portfolio/webshop.jpg" alt="webshop" class="mb-4 img-fluid shadow">
+            <h4 class="first small">React - React-router-dom - Bootstrap</h4>
+            <p class="card-text grey">First basic React application made using a previously designed webshop. Made using: React, React-router-dom and Bootstrap. </p>
+        </div></a>
+        </div>
+      </div>
+      <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+          <div class="row h-50">
+              <div class="col border-right"></div>
+              <div class="col"></div>
+          </div>
+          <h5 class="m-2">
+            <a href="#webshop"><span class="badge badge-pill bg-second">&nbsp;</span></a>
           </h5>
           <div class="row h-50">
               <div class="col border-right"></div>
@@ -229,7 +258,8 @@
             <hr class="bg-white mx-auto mt-1 mb-4">
             <p class="second mb-4 font-weight-bold">Have a question or want to work together?</p>
           </div>
-          <?php
+
+          <!-- <-?php
           if (isset($_GET["completed"])) {
             $result = $_GET["completed"];
             if ($result == "yes") {
@@ -245,9 +275,18 @@
             <div>
               <button form="contactForm" type="submit" class="button bg-gradient mx-auto mt-3" name="submit">Submit</button>
             </div>
-          <?php
+          <-?php
           }
-          ?>
+          ?> -->
+
+          <form class="mx-auto mb-4" id="contactForm" autocomplete="off" action="#" method="POST">
+            <input class="white" type="text" name="name" placeholder="Enter name" autocomplete="name-new" required>
+            <input class="white" type="email" name="email" placeholder="Enter email" autocomplete="email-new" required>
+            <textarea class="white" placeholder="Your message" name="message" required></textarea>
+          </form>
+          <div>
+            <button form="contactForm" type="submit" class="button bg-gradient mx-auto mt-3" name="submit">Submit</button>
+          </div>
         </div>
       </div>
     </div>
